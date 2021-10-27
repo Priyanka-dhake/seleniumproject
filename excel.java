@@ -139,7 +139,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class dataprovider {
+public class dataprovider 
 	
 	WebDriver driver = null;
 	
@@ -192,5 +192,5 @@ public class dataprovider {
 }
 
 
-
-
+//1.create excel sheet in your eclipse workspace as new folder in maven project
+//2.create this program files in src/test/java in utils package
