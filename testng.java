@@ -1,4 +1,4 @@
-Annontation
+//Annontation
 
 package swaglab;
 
@@ -97,7 +97,7 @@ public class annontation {
 
 
 
-Data Provider
+//Data Provider
 
 
 package swaglab;
@@ -133,39 +133,7 @@ public class dataproviderexample {
 }
 
 
-Example
-
-
-
-package swaglab;
-
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-public class example {
-	public String baseurl = "https://www.saucedemo.com/";
-	String driverpath = "/usr/bin/chromedriver";
-	public WebDriver driver;
-	@Test
-	public void VerifyHomepageTitle() {
-		System.out.println("Launching chrome Browser");
-		System.setProperty("webdriver.chrome.driver",driverpath);
-		driver = new ChromeDriver();
-		driver.get(baseurl);
-		String expectedTitle = "Instructor-Led Online Training with 24X7 Lifetime Support | Edureka";
-		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectedTitle);
-		driver.close();
-
-	}
-}
-
-
-
-
-Test DDT
+//Test DDT
 
 
 package swaglab;
@@ -220,5 +188,7 @@ public class testddt {
 	}
 }
 
-
-
+/*1.create maven project 
+2.add jars         hamcrest core,junit,selenium-java,selenium-server-standalone,testng.
+      library	   jre system,JUnit,maven dependencies,TestNG.
+3.create progarm file in src/main/java */
